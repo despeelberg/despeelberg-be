@@ -1,0 +1,12 @@
+$blue: #1a6ac1;
+$yellow: #fed74c;
+
+.block {
+    padding: 10px;
+
+    &__title {
+        font-size: 20px;
+        padding: 10px;
+        font-family: 'Roboto Condensed', Arial, Helvetica, sans-serif;
+    }
+}

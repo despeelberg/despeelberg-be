@@ -1,0 +1,22 @@
+$blue: #1a6ac1;
+$yellow: #fed74c;
+
+@import './styles/header.scss';
+@import './styles/landing.scss';
+@import './styles/main-nav.scss';
+@import './styles/block.scss';
+@import './styles/card.scss';
+@import './styles/columns.scss';
+@import './styles/footer.scss';
+@import './styles/quick-links.scss';
+@import './styles/view.scss';
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}

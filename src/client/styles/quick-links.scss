@@ -1,0 +1,21 @@
+.ql {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+
+    &__item {
+        margin: 0 10px;
+    }
+
+    &__link {
+        color: #fff;
+        font-size: 18px;
+        text-decoration: none;
+    }
+}
+
+@media (max-width: 700px) {
+    .ql {
+        justify-content: center;
+    }
+}

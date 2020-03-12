@@ -1,0 +1,23 @@
+.columns {
+    display: flex;
+    justify-content: space-between;
+
+    &--center {
+        justify-content: space-evenly;
+    }
+}
+
+.column {
+    flex: 1
+
+    &--center {
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 1100px) {
+    .columns {
+        display: block;
+    }
+}

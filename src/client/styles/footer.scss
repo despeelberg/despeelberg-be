@@ -1,0 +1,43 @@
+$blue: #1a6ac1;
+$yellow: #fed74c;
+
+.ft {
+    background: $blue;
+    position: relative;
+    z-index: 3;
+    padding: 15px;
+
+    &__container {
+        width: 80%;
+        margin: auto;
+    }
+
+    &__img {
+        height: 120px;
+        width: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__link, &__text, &__title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        font-family: 'Roboto Condensed', Arial, Helvetica, sans-serif;
+    }
+
+    &__title {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 1100px) {
+    .ft {
+        &__img {
+            display: none;
+        }
+    }
+}
