@@ -7,7 +7,7 @@
                 <router-link to="/" :class="'back'"><fa :icon="['fas', 'angle-left']"></fa></router-link>
                 <h1 class="pageTitle"><slot name="header"></slot></h1>
               </div>
-              <emphasis :block="true" :type="'alert'">Er zijn dit jaar enkele maatregelen omtrent corona van kracht! Je vindt ze allemaal <router-link :class="'link'" to="/coronavirus">hier</router-link></emphasis>
+              <!-- <emphasis :block="true" :type="'alert'">Er zijn dit jaar enkele maatregelen omtrent corona van kracht! Je vindt ze allemaal <router-link :class="'link'" to="/coronavirus">hier</router-link></emphasis> -->
               <slot></slot>
           </div>
           <div class="questions">
@@ -25,14 +25,14 @@ import NavBar from '../components/NavBar'
 // import Block from '../components/Block'
 // import Card from '../components/Card'
 import Footer from '../components/Footer'
-import Emphasis from '../components/Emphasis'
+// import Emphasis from '../components/Emphasis'
 
 export default {
     name: 'Page',
     components: {
         NavBar,
         Footer,
-        Emphasis
+        // Emphasis
     }
 }
 </script>

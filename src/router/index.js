@@ -5,7 +5,7 @@ import InfoOuders from '../views/InfoOuders.vue'
 import InfoAnimatoren from '../views/InfoAnimatoren.vue'
 import Pit from '../views/Pit.vue'
 import Visie from '../views/Visie.vue'
-import Corona from '../views/Corona.vue'
+// import Corona from '../views/Corona.vue'
 import ErrorPage from '../views/ErrorPage.vue'
 
 Vue.use(VueRouter)
@@ -51,14 +51,14 @@ const routes = [
       title: 'Onze visie | Speelplein De Speelberg vzw'
     }
   },
-  {
-    path: '/coronavirus',
-    name: 'Maatregelen coronavirus',
-    component: Corona,
-    meta: {
-      title: 'Coronamaatregelen | Speelplein De Speelberg vzw'
-    }
-  },
+  // {
+  //   path: '/coronavirus',
+  //   name: 'Maatregelen coronavirus',
+  //   component: Corona,
+  //   meta: {
+  //     title: 'Coronamaatregelen | Speelplein De Speelberg vzw'
+  //   }
+  // },
   {
     path: '*',
     component: ErrorPage,

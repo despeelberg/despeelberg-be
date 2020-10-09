@@ -48,8 +48,9 @@ export default {
     transition: 0.5s ease-in;
     position: fixed;
     top: 0;
-    background: url("../assets/site-banner.jpg") center center no-repeat;
+    background: url("../assets/banner_2021.jpg") center center no-repeat;
     background-size: cover;
+    /* padding-bottom: 56.25%; */
 }
 
 .background {

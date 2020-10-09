@@ -8,17 +8,17 @@
       </block>
 
       <block blockTitle="Voor wie is het speelplein?">
-        <p><emphasis :type="'warning'">Door de getroffen maatregelen omtrent corona, kunnen wij dit jaar helaas geen kwalitatieve werking bieden aan kinderen vanaf 12 jaar. Daardoor zijn zij dit jaar uitzonderlijk niet welkom op ons speelplein.</emphasis> <br>
-        Er is speelplein voor elk kind tussen 3 en 12 jaar.
+        <p>
+        Alle kinderen tussen 3 en 15 jaar zijn welkom op De Speelberg.
         </p>
       </block>
 
       <block blockTitle="Hoe ziet een dag eruit op het speelplein?" :class="'no-flex'">
-        <p><emphasis :type="'warning'">Onze dagindeling ziet er dit jaar anders uit!</emphasis></p>
+        <p></p>
         <p>
           <b>7:45 - 9:30</b> Onze poort staat open voor iedereen die wil spelen! De poort wordt om 9:30 gesloten en kan je niet meer binnen. <br>
           <b>9:30 - 12:00</b> Er worden verschillende activiteiten georganiseerd door een enthousiaste groep animatoren. Je kan zelf kiezen waar je meespeelt! <br>
-          <b>12:00 - 13:00</b> <emphasis :type="'warning'">Je kan dit jaar niet naar huis gaan om te eten!</emphasis> Over de middag kan je jouw boterhammen opeten. Er wordt een drankje aangeboden (cola, limonade of water). <br>
+          <b>12:00 - 13:00</b> Over de middag kan je jouw boterhammen opeten. Er wordt een drankje aangeboden (cola, limonade of water). <br>
           <b>13:00 - 13:45</b> Onze poort staat weer open voor iedereen die in de namiddag wil komen spelen! <br>
           <b>13:45 - 17:30</b> Een hele namiddag spelen! Om 15:30 is er het vieruurtje, waar je een koekje (zelf mee te brengen) kan eten en een drankje krijgt. Om 17:30 worden alle kinderen tegelijk afgehaald aan de poort.
         </p>
@@ -27,7 +27,7 @@
 
       <block blockTitle="Hoeveel kost een dag op het speelplein?" :class="'no-flex'">
         <p>
-          <b>Voormiddag</b> <emphasis :type="'warning'">Het is dit jaar niet mogelijk om enkel in de voormiddag te komen</emphasis> €1 <br>
+          <b>Voormiddag</b> €1 <br>
           <b>Middag</b> €1 (inclusief drankje) <br>
           <b>Namiddag</b> €2 (inclusief drankje) <br>
           <br>
@@ -35,9 +35,9 @@
         </p>
       </block>
 
-      <block blockTitle="Moet ik mijn kind op voorhand inschrijven?" :class="'no-flex'">
+      <!-- <block blockTitle="Moet ik mijn kind op voorhand inschrijven?" :class="'no-flex'">
         <p>Ja, dit jaar worden kinderen uitzonderlijk op voorhand ingeschreven. Dit kan vanaf <time datetime="2020-06-21">21 juni</time>.</p>
-      </block>
+      </block> -->
     </page>
   </div>
 </template>
@@ -45,12 +45,12 @@
 <script>
 import Page from '../components/Page'
 import Block from '../components/Block'
-import Emphasis from '../components/Emphasis'
+// import Emphasis from '../components/Emphasis'
 export default {
   components: {
     Page,
     Block,
-    Emphasis
+    // Emphasis
   }
 }
 </script>

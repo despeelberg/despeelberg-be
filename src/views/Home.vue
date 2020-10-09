@@ -5,7 +5,7 @@
     <section id="main">
       <div class="container">
 
-        <block blockTitle="Inschrijvingen" :id="'inschrijvingen'">
+        <!-- <block blockTitle="Inschrijvingen" :id="'inschrijvingen'">
           <card 
           v-bind:title="'Inschrijvingen'"
           v-bind:type="'info'"
@@ -15,9 +15,9 @@
           >
             De inschrijvingen voor augustus beginnen op maandag 20 juli, om 17u30. Deze eindigen op woensdag 29 juli.
           </card>
-        </block>
+        </block> -->
         
-        <block blockTitle="Maatregelen i.v.m. het coronavirus (Covid-19)" :id="'covid'">
+        <!-- <block blockTitle="Maatregelen i.v.m. het coronavirus (Covid-19)" :id="'covid'">
           <card 
           v-bind:title="'Maatregelen'"
           v-bind:type="'alert'"
@@ -26,7 +26,7 @@
           >
             Ook wij zijn genoodzaakt om maatregelen te nemen tegen het coronavirus. <br> Bekijk hier hoe wij dit aanpakken.
           </card>
-        </block>
+        </block> -->
 
         <block blockTitle="Info" :id="'info'">
           <card
@@ -47,14 +47,22 @@
           </card>
         </block>
 
-        <block blockTitle="Kalender 2020" :id="'kalender'">
+        <block blockTitle="Kalender 2021" :id="'kalender'">
+          <card
+            :title="'Paasvakantie'"
+            :type="'info'"
+            :clickable="false"
+            :href="'kalender'"
+          >
+            Van 12 tot en met 16 april 2021. <br> Enkel in de namiddag.
+          </card>
           <card
             :title="'Zomervakantie'"
             :type="'info'"
             :clickable="false"
             :href="'kalender'"
           >
-            <emphasis type="warning">Nieuwe data!</emphasis> <br>6 tot en met 17 juli en van 17 tot en met 28 augustus.
+            Van 5 tot en met 16 juli en van 16 tot en met 31 augustus 2021.
           </card>
         </block>
 
@@ -148,7 +156,7 @@ import Slideshow from '../components/Slideshow'
 import Block from '../components/Block'
 import Card from '../components/Card'
 import Footer from '../components/Footer'
-import Emphasis from '../components/Emphasis'
+// import Emphasis from '../components/Emphasis'
 
 import blocks from '../modules/blocks'
 
@@ -160,7 +168,7 @@ export default {
     Block,
     Footer,
     Card,
-    Emphasis
+    // Emphasis
   },
   data: () => {
     return {
