@@ -98,8 +98,8 @@ export default {
   z-index: 10;
 }
 
-#navbar.top {
-  box-shadow: 0 3px 13px 0 #343434;
+#navbar {
+  box-shadow: 0 3px 13px 0 rgb(52, 52, 52, 0.4);
 }
 
 #navbar.topOfPage {
@@ -108,9 +108,9 @@ export default {
 }
 
 .res-wrap {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .container {
@@ -188,6 +188,10 @@ export default {
 
   .link,
   .socials-link {
+    margin: 5px 0;
+  }
+
+  .socials {
     margin: 5px 0;
   }
 

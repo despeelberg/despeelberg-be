@@ -109,4 +109,10 @@ export default {
     color: #ffffff;
     font-size: 20px;
 }
+
+@media (max-width: 700px) { 
+    .column {
+        padding: 35px 15px;
+    }
+}
 </style>
