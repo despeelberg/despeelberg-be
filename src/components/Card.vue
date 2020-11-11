@@ -73,7 +73,7 @@ h2 {
  */}
 p {
     font-family: 'Roboto', Avenir, Arial, Helvetica, sans-serif;
-    color: #333333;
+    color: rgb(92, 92, 92);
     font-size: 1rem;
     text-decoration: none;
 /*     padding: 10px 0;
