@@ -184,9 +184,17 @@ export default {
     z-index: 8;
     padding: 45px 0;
     background: #ffffff;
+    min-height: 100%;
   }
+
+
   .container {
     margin: auto;
-    width: 80%;
+    width: 70%;
+  }
+
+  .home{
+    height: inherit;
+    min-height: 100%;
   }
 </style>

@@ -4,10 +4,10 @@
         <div class="columns">
         <div class="column">
             <div class="column-row">
-                <div class="logo">
+             <!--    <div class="logo">
                     <img src="@/assets/logo_circle.png" alt="Speelplein De Speelberg vzw" class="logo-img">
                     <h2 class="logo-name">Speelplein de Speelberg vzw</h2>
-                </div>
+                </div> -->
             </div>
             <div class="column-row">
                 <div class="welcome">
@@ -47,6 +47,7 @@ export default {
     height: 80vh;
     transition: 0.5s ease-in;
     position: fixed;
+    z-index: -1;
     top: 0;
     background: url("../assets/banner_2021.jpg") center center no-repeat;
     background-size: cover;
@@ -54,7 +55,6 @@ export default {
 }
 
 .background {
-    background-color: rgba(26, 106, 193, 0.35);
     height: 100%;
     width: 100%;
     position: absolute;
@@ -91,13 +91,13 @@ export default {
 .logo-name {
     color: #fff;
     text-transform: uppercase;
-    font-family: 'Sigmar One', Avenir, Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', Avenir, Arial, Helvetica, sans-serif;
     font-size: 26px;
     font-weight: 300;
 }
 .welcome {
     color: #ffffff;
-    font-family: 'Sigmar One', Avenir, Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', Avenir, Arial, Helvetica, sans-serif;
     font-size: 28px;
 }
 .socials {

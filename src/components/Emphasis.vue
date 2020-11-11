@@ -32,7 +32,7 @@ export default {
     color: #000000;
     padding: 10px;
     width: 100%;
-    font-family: 'Roboto Condensed', Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
 }
 
 .block.info {

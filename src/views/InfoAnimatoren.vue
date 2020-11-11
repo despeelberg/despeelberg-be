@@ -35,3 +35,10 @@ export default {
   }
 }
 </script>
+
+<style>
+.animatoren{
+  height: inherit;
+  min-height: inherit;
+}
+</style>

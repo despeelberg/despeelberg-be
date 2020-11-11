@@ -20,7 +20,7 @@ export default {
 </script>
 
 <style>
-@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed|Sigmar+One');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed|Sigmar+One|Roboto:wght@300');
 * {
   margin: 0;
   padding: 0;
@@ -29,7 +29,20 @@ export default {
 
 html {
   scroll-behavior: smooth;
+  height: 100%;
+  min-height: 100%;
 }
+
+body{
+  min-height: 100%;
+  height: 100%;
+}
+
+#app{
+  height: inherit;
+  min-height: inherit;
+}
+
 
 /* #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;

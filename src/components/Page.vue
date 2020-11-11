@@ -10,11 +10,11 @@
               <!-- <emphasis :block="true" :type="'alert'">Er zijn dit jaar enkele maatregelen omtrent corona van kracht! Je vindt ze allemaal <router-link :class="'link'" to="/coronavirus">hier</router-link></emphasis> -->
               <slot></slot>
           </div>
-          <div class="questions">
+      <!--     <div class="questions">
               <h2 class="q">Heb je nog vragen? Stel ze ons en we bezorgen jou een antwoord!</h2>
               <a class="q-link" href="mailto:info@despeelberg.be">Stuur ons een e-mail!</a> <br>
               <a class="q-link" href="https://www.messenger.com/t/despeelbergvzw" target="_blank">Stuur ons een bericht op Facebook!</a>
-          </div>
+          </div> -->
       </section>
       <Footer></Footer>
   </div>
@@ -42,20 +42,26 @@ export default {
     display: flex;
     align-items: center;
     padding: 25px 0;
+    
+}
+
+.main{
+    flex: 1 0 auto;
 }
 
 a.back {
-    background: #1a6ac1;
-    color: #ffffff;
+/*  background: #1a6ac1;
+ */ color: #1a6ac1;
     padding: 10px;
-    font-size: 32px;
+    font-size: 28px;
     margin-right: 10px;
     border-radius: 5px;
 }
 
 .pageTitle {
-    font-family: 'Sigmar One', Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
     font-size: 30px;
+    
 }
 
 .container {
@@ -64,15 +70,26 @@ a.back {
 }
 
 p {
-    font-family: 'Roboto Condensed', Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
     font-size: 18px;
     margin: 10px 0;
+    color: grey;
+
 }
 
 a {
     text-decoration: none;
     color: inherit;
+    
 }
+
+.page{
+    min-height: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
 
 .link {
     color: #1a6ac1;
@@ -93,16 +110,22 @@ a {
 }
 
 .q {
-    font-family: 'Sigmar One', Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
     margin: 10px 0;
+    
 }
+.page{
+    min-height: 100%;
+}
+
+
 
 .q-link {
     display: block;
     padding: 10px;
     width: 50%;
     background: #1a6ac1;
-    font-family: 'Roboto Condensed', Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
     text-align: center;
     color: #ffffff;
 }
