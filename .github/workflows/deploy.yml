@@ -1,38 +1,23 @@
-name: DEPLOY TO FIREBASE ON PUSH
 
-on: 
-    push:
-        branches:
-          - development
-    pull_request:
-        branches:
-            - development
+name: DEPLOY TO FIREBASE
+
+on:
+  push:
+    branches:
+      - develop
 
 jobs:
   firebase-deploy:
     runs-on: ubuntu-latest
     steps:
-        - name: checkout
-          uses: 
-            - actions/checkout@master
-            - actions/setup-node@master
-        - name: Installing project dependencies
-          run: npm install
-        - name: Building the project
-          run: npm run build
-          uses: w9jds/firebase-action@master
-          with:
-              args: deploy --only hosting
-          env:
-            FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
-        - name: push to master
-          run: |
-            git config --local user.email "lenny.claes@gmail.com"
-            git config --local user.name "Github Action"
-            git add .
-            git commit -m "Automatic commit from Github actions"
-          uses: ad-m/github-push-action@master
-          with:
-            github_token: ${{secrets.GH_TOKEN}}
-            force: true
-            branch: master
+      - uses: actions/checkout@master
+      - uses: actions/setup-node@master
+      - name: Installing project dependencies
+      - run: npm install
+      - name: Building the project
+      - run: npm run build
+      - uses: w9jds/firebase-action@master
+        with:
+          args: deploy --only hosting
+        env:
+          FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
