@@ -5,12 +5,16 @@
       <div class="nav-wrap">
         <div class="res-wrap">
           <a href="/">
-            <img
+          <div class="logo-div">
+             <img
               class="logo"
               src="@/assets/logo_circle.png"
               alt="Logo Speelplein De Speelberg vzw"
               srcset=""
             />
+          <h2 class="logo-name">Speelplein de Speelberg vzw</h2>
+          </div>
+          
           </a>
           <div class="menu-btn-wrap">
             <button class="menu-btn" v-on:click="toggleMenu()">
@@ -87,6 +91,8 @@ export default {
 </script>
 
 <style scoped>
+
+
 #navbar {
   position: sticky;
   top: 0;
@@ -103,7 +109,7 @@ export default {
 }
 
 #navbar.topOfPage {
-  box-shadow: 0 3px 13px 0 #343434;
+  box-shadow: 0 3px 13px 0 rgb(52, 52, 52, 0.4);
   margin-top: 0 !important;
 }
 
@@ -125,10 +131,25 @@ export default {
   align-items: center;
   width: 100%;
 }
+
+.logo-div {
+    display: flex;
+    align-items: center;
+}
+
 .logo {
   width: 90px;
   height: auto;
+  margin-right: 1.5em;
 }
+
+.logo-name {
+    text-transform: uppercase;
+    font-family: 'Roboto', Avenir, Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    font-weight: 300;
+}
+
 .main-nav {
   display: flex;
   justify-content: space-between;

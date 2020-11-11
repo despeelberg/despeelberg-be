@@ -22,4 +22,13 @@ export default {
     // Emphasis
   }
 }
+
 </script>
+
+
+<style>
+.pit{
+  height: inherit;
+  min-height: inherit;
+}
+</style>

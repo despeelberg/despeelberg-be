@@ -43,11 +43,12 @@ a {
     text-decoration: none;
 }
 .card {
-    padding: 15px;
+    padding: 25px;
     background: rgba(239,239,239,0.7);
-    margin: 10px 10px 10px 0;
+    margin: 10px 30px 20px 0;
     transition: 0.1s linear;
     width: 100%;
+    box-shadow: 5px 5px 2px lightgrey;
 }
 .card.click:hover {
     transform: scale(1.01);
@@ -64,17 +65,17 @@ a {
     color: rgba(255, 100, 3, 0.8);
 }
 h2 {
-    font-family: 'Sigmar One', Avenir, Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', Avenir, Arial, Helvetica, sans-serif;
     color: #333333;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     text-decoration: none;
-    border-bottom: 1px solid #888888;
-}
+/*     border-bottom: 1px solid #888888;
+ */}
 p {
-    font-family: 'Roboto Condensed', Avenir, Arial, Helvetica, sans-serif;
-    color: #333333;
-    font-size: 1.2rem;
+    font-family: 'Roboto', Avenir, Arial, Helvetica, sans-serif;
+    color: rgb(92, 92, 92);
+    font-size: 1rem;
     text-decoration: none;
-    padding: 10px 0;
-}
+/*     padding: 10px 0;
+ */}
 </style>

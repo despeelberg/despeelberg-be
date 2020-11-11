@@ -5,10 +5,10 @@
     </div>
     <div class="column">
         <h4>SPEELPLEIN DE SPEELBERG VZW</h4>
-        <p>
+        <div id="address">
             Tomberg 21A <br>
             8791 Beveren-Leie
-        </p>
+        </div>
     </div>
     <div class="column">
         <h4>CONTACT</h4>
@@ -16,8 +16,8 @@
             <a href="tel:+32470031652" class="link">+324 70 03 16 52</a>
             <a href="mailto:info@despeelberg.be" class="link">info@despeelberg.be</a>
             <br>
-            <a href="https://www.messenger.com/t/despeelbergvzw" class="link" target="_blank">Facebook</a>
-        </p>
+<!--             <a href="https://www.messenger.com/t/despeelbergvzw" class="link" target="_blank">Facebook</a>
+ -->        </p>
     </div>
     <div class="column">
         <h4>NUTTIGE LINKS</h4>
@@ -36,32 +36,51 @@ export default {
 </script>
 
 <style scoped>
+
+#footer{
+    flex-shrink: 0;
+}
+
 .ft {
     display: flex;
     justify-content: space-evenly;
     align-items: flex-start;
     padding: 15px 20%;
     background: #1a6ac1;
-    position: relative;
+    width: 100%;
     z-index: 8;
     color: #ffffff;
-    font-family: 'Roboto Condensed', Avenir, Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', Avenir, Arial, Helvetica, sans-serif;
+
 }
 .link {
     color: #ffffff;
-    text-decoration: underline;
     display: block;
+    font-family: 'Roboto', Avenir, Arial, Helvetica, sans-serif;
+
+}
+
+.link:hover{
+    text-decoration: underline;
+
 }
 h4  {
     margin-bottom: 5px;
     font-size: 1.1rem;
+    font-weight: normal;
+    font-family: 'Roboto Condensed', Avenir, Arial, Helvetica, sans-serif;
 }
 .column {
     flex: 1 1 auto;
 }
 .column img {
-    height: 115px;
+    height: 90px;
     width: auto;
+}
+
+#address{
+        color: #ffffff;
+    font-family: 'Roboto', Avenir, Arial, Helvetica, sans-serif;
 }
 
 @media (max-width: 1000px) {

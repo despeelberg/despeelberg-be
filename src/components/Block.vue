@@ -22,13 +22,14 @@ export default {
     text-decoration: none;
 }
 .block {
-    margin-bottom: 15px;
+    margin-bottom: 25px;
 }
 
 .block-title {
-    font-family: 'Roboto Condensed', Avenir, Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', Avenir, Arial, Helvetica, sans-serif;
     margin: 5px 0;
-    font-size: 24px;
+    font-size: 26px;
+    color: '#696969';
 }
 
 .slot {
