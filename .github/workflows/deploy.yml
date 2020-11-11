@@ -1,8 +1,12 @@
 name: DEPLOY TO FIREBASE ON PUSH
 
-on: [push, merge]
-    branches:
-      - development
+on: 
+    push:
+        branches:
+          - development
+    merge:
+        branches:
+            - development
 
 jobs:
   firebase-deploy:
