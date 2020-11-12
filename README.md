@@ -1,4 +1,6 @@
-# despeelberg
+# despeelberg-be
+
+Official repo for the Speelplein De Speelberg vzw website.
 
 ## Project setup
 ```
@@ -15,10 +17,6 @@ npm run serve
 npm run build
 ```
 
-### Lints and fixes files
-```
-npm run lint
-```
+## Contributing
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+The master branch is set up to automatically deploy to Firebase. Never push to master!
