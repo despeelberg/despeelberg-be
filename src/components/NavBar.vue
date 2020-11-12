@@ -28,6 +28,7 @@
           <a href="#kalender" class="link"> KALENDER </a>
           <a href="#fotos" class="link"> FOTO'S </a>
           <a href="#contact" class="link"> CONTACT </a>
+          <router-link :to="'/faq'" class="link"> VEELGESTELDE VRAGEN </router-link>
           <div class="socials">
             <a
               href="https://www.facebook.com/despeelbergvzw"
