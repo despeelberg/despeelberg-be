@@ -73,7 +73,7 @@ p {
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
     font-size: 18px;
     margin: 10px 0;
-    color: grey;
+    color: #333333;
 
 }
 
