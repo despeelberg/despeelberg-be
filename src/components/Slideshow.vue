@@ -131,8 +131,16 @@ h3 {
 }
 
 @media (max-width: 700px) {
-  .column {
-    padding: 35px 15px;
-  }
+  h1 {
+  font-size: 2.5em;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+h3 {
+  font-size: 1.5em;
+}
 }
 </style>
