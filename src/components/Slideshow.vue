@@ -6,7 +6,9 @@
           <h1>Paasvakantie 2021</h1>
           <h2>12 - 16 april</h2>
           <h3>Enkel in de namiddag</h3>
-          <!-- <a class="button" href="https://inschrijven.despeelberg.be">NU INSCHRIJVEN</a> -->
+          <a class="button" href="https://inschrijven.despeelberg.be"
+            >NU INSCHRIJVEN</a
+          >
         </div>
       </div>
     </div>
@@ -121,26 +123,30 @@ h3 {
 }
 
 .button {
-    padding: 15px;
-    background: #1a6ac1;
-    margin: 25px 0;
-    display: block;
-    width: 470px;
-    text-align: center;
-    border-radius: 5px;
+  padding: 15px;
+  background: #1a6ac1;
+  margin: 25px 0;
+  display: block;
+  width: 470px;
+  text-align: center;
+  border-radius: 5px;
 }
 
 @media (max-width: 700px) {
   h1 {
-  font-size: 2.5em;
-}
+    font-size: 2.5em;
+  }
 
-h2 {
-  font-size: 2em;
-}
+  h2 {
+    font-size: 2em;
+  }
 
-h3 {
-  font-size: 1.5em;
-}
+  h3 {
+    font-size: 1.5em;
+  }
+
+  .button {
+    width: 100%;
+  }
 }
 </style>
