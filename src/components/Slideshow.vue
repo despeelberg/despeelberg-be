@@ -3,12 +3,9 @@
     <div class="background">
       <div id="info-wrap">
         <div id="info">
-          <h1>Paasvakantie 2021</h1>
-          <h2>12 - 16 april</h2>
-          <h3>Enkel in de namiddag</h3>
-          <a class="button" href="https://inschrijven.despeelberg.be"
-            >NU INSCHRIJVEN</a
-          >
+          <h1>Zomervakantie 2021</h1>
+          <h2>5 - 16 juli</h2>
+          <h2>16 - 31 augustus</h2>
         </div>
       </div>
     </div>
