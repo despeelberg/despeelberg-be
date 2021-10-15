@@ -6,7 +6,7 @@
           <h1>Zomervakantie 2021</h1>
           <h2>5 - 16 juli</h2>
           <h2>16 - 31 augustus</h2>
-          <a href="https://inschrijven.despeelberg.be" class="button">Inschrijven</a>
+          <!-- <a href="https://inschrijven.despeelberg.be" class="button">Inschrijven</a> -->
         </div>
       </div>
     </div>
