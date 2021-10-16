@@ -23,13 +23,12 @@
 <script>
 import Page from "../components/Page";
 import Block from "../components/Block";
-import Emphasis from "../components/Emphasis";
+// import Emphasis from "../components/Emphasis";
 // import Emphasis from '../components/Emphasis'
 export default {
   components: {
     Page,
     Block,
-    Emphasis,
     // Emphasis
   },
 };

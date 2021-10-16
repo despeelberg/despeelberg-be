@@ -4,7 +4,6 @@
     <nav-bar v-bind:topOfPage="false"></nav-bar>
     <section id="main">
       <div class="container">
-
         <!-- <block blockTitle="Inschrijvingen" :id="'inschrijvingen'">
           <card 
           v-bind:title="'Inschrijvingen'"
@@ -16,7 +15,7 @@
             De inschrijvingen voor augustus beginnen op maandag 20 juli, om 17u30. Deze eindigen op woensdag 29 juli.
           </card>
         </block> -->
-        
+
         <!-- <block blockTitle="Maatregelen i.v.m. het coronavirus (Covid-19)" :id="'covid'">
           <card 
           v-bind:title="'Maatregelen'"
@@ -35,7 +34,9 @@
             :clickable="true"
             :href="'ouders'"
           >
-            Alle informatie voor ouders. <br> Waar ligt het speelplein? Mag mijn kind al komen spelen? Hoeveel kost een dag op het speelplein?
+            Alle informatie voor ouders. <br />
+            Waar ligt het speelplein? Mag mijn kind al komen spelen? Hoeveel
+            kost een dag op het speelplein?
           </card>
           <card
             :title="'Voor animatoren'"
@@ -43,18 +44,19 @@
             :clickable="true"
             :href="'animatoren'"
           >
-            Ben je 16 jaar of ouder en heb je zin om animator te worden bij ons? Je bent altijd welkom!
+            Ben je 16 jaar of ouder en heb je zin om animator te worden bij ons?
+            Je bent altijd welkom!
           </card>
         </block>
 
-        <block blockTitle="Kalender 2021" :id="'kalender'">
+        <block blockTitle="Kalender 2022" :id="'kalender'">
           <card
             :title="'Paasvakantie'"
             :type="'info'"
             :clickable="false"
             :href="'kalender'"
           >
-            Van 12 tot en met 16 april 2021. <br> Enkel in de namiddag.
+            Van 11 tot en met 15 april 2022.
           </card>
           <card
             :title="'Zomervakantie'"
@@ -62,7 +64,7 @@
             :clickable="false"
             :href="'kalender'"
           >
-            Van 5 tot en met 16 juli en van 16 tot en met 31 augustus 2021.
+            Van 4 tot en met 15 juli en van 15 tot en met 31 augustus 2022.
           </card>
         </block>
 
@@ -73,7 +75,8 @@
             :href="'pit'"
             :type="'info'"
           >
-            Professioneel, Innovatief en Tof! Onze stuurgroep staat altijd voor jullie klaar!
+            Professioneel, Innovatief en Tof! Onze stuurgroep staat altijd voor
+            jullie klaar!
           </card>
           <card
             :title="'Onze visie'"
@@ -81,7 +84,9 @@
             :href="'visie'"
             :type="'info'"
           >
-            We willen elk kind een echt vakantiegevoel bezorgen door hen tot intens spelen te laten komen: niet zomaar spelen, maar zo hard spelen dat je alles rond je vergeet.
+            We willen elk kind een echt vakantiegevoel bezorgen door hen tot
+            intens spelen te laten komen: niet zomaar spelen, maar zo hard
+            spelen dat je alles rond je vergeet.
           </card>
         </block>
 
@@ -102,7 +107,8 @@
             :href="'https://www.instagram.com/speelpleindespeelberg/'"
             :intern="false"
           >
-            Je kan ons ook volgen op Instagram voor een kijkje achter de schermen!
+            Je kan ons ook volgen op Instagram voor een kijkje achter de
+            schermen!
           </card>
         </block>
 
@@ -114,7 +120,8 @@
             :intern="false"
             :type="'info'"
           >
-            De eenvoudigste manier om ons te bereiken is via e-mail. Dit kan op het adres: info@despeelberg.be
+            De eenvoudigste manier om ons te bereiken is via e-mail. Dit kan op
+            het adres: info@despeelberg.be
           </card>
         </block>
         <block>
@@ -134,13 +141,13 @@
             :type="'info'"
             :intern="false"
           >
-            Je kan ons bereiken op: 0470 03 16 52. <br> <b>Let op!</b> Al onze vrijwilligers studeren nog. Spreek gerust een boodschap in als je niemand kan bereiken.
+            Je kan ons bereiken op: 0470 03 16 52. <br />
+            <b>Let op!</b> Al onze vrijwilligers studeren nog. Spreek gerust een
+            boodschap in als je niemand kan bereiken.
           </card>
-          <card
-            :title="'Brieven'"
-            :clickable="false"
-          >
-            Je mag ons altijd een brief schrijven. Deze mag je posten op: Tomberg 21A, 8791 Beveren-Leie.
+          <card :title="'Brieven'" :clickable="false">
+            Je mag ons altijd een brief schrijven. Deze mag je posten op:
+            Tomberg 21A, 8791 Beveren-Leie.
           </card>
         </block>
       </div>
@@ -151,17 +158,17 @@
 
 <script>
 // @ is an alias to /src
-import NavBar from '../components/NavBar'
-import Slideshow from '../components/Slideshow'
-import Block from '../components/Block'
-import Card from '../components/Card'
-import Footer from '../components/Footer'
+import NavBar from "../components/NavBar";
+import Slideshow from "../components/Slideshow";
+import Block from "../components/Block";
+import Card from "../components/Card";
+import Footer from "../components/Footer";
 // import Emphasis from '../components/Emphasis'
 
-import blocks from '../modules/blocks'
+import blocks from "../modules/blocks";
 
 export default {
-  name: 'Home',
+  name: "Home",
   components: {
     NavBar,
     Slideshow,
@@ -172,29 +179,28 @@ export default {
   },
   data: () => {
     return {
-      blocks: blocks
-    }
-  }
-}
+      blocks: blocks,
+    };
+  },
+};
 </script>
 
 <style scoped>
-  #main {
-    position: relative;
-    z-index: 8;
-    padding: 45px 0;
-    background: #ffffff;
-    min-height: 100%;
-  }
+#main {
+  position: relative;
+  z-index: 8;
+  padding: 45px 0;
+  background: #ffffff;
+  min-height: 100%;
+}
 
+.container {
+  margin: auto;
+  width: 70%;
+}
 
-  .container {
-    margin: auto;
-    width: 70%;
-  }
-
-  .home{
-    height: inherit;
-    min-height: 100%;
-  }
+.home {
+  height: inherit;
+  min-height: 100%;
+}
 </style>
