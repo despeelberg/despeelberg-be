@@ -3,10 +3,17 @@
     <div class="background">
       <div id="info-wrap">
         <div id="info">
-          <h1>Zomervakantie 2021</h1>
-          <h2>5 - 16 juli</h2>
-          <h2>16 - 31 augustus</h2>
+          <div class="vakantieInfo">
+            <h1>Zomervakantie 2022</h1>
+            <h2>4 - 15 juli</h2>
+            <h2>15 - 31 augustus</h2>
+          </div>
+
           <!-- <a href="https://inschrijven.despeelberg.be" class="button">Inschrijven</a> -->
+          <div class="vakantieInfo">
+            <h1>Paasvakantie 2022</h1>
+            <h2>11 - 15 april</h2>
+          </div>
         </div>
       </div>
     </div>
@@ -130,6 +137,12 @@ h3 {
   border-radius: 5px;
 }
 
+.vakantieInfo {
+  float: left;
+  margin-top: 10%;
+  padding-right: 150px;
+}
+
 @media (max-width: 700px) {
   h1 {
     font-size: 2.5em;
@@ -145,6 +158,10 @@ h3 {
 
   .button {
     width: 100%;
+  }
+
+  #info-wrap {
+    height: 100%;
   }
 }
 </style>
