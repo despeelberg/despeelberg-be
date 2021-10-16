@@ -15,7 +15,7 @@
           opmerking? De PIT staat voor je klaar!
         </p>
       </block>
-      <emphasis :block="false" :type="'alert'"> Dit is een test </emphasis>
+      <!-- <emphasis :block="false" :type="'alert'"> Dit is een test </emphasis> -->
     </page>
   </div>
 </template>
