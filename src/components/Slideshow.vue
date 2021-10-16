@@ -4,16 +4,17 @@
       <div id="info-wrap">
         <div id="info">
           <div class="vakantieInfo">
+            <h1>Paasvakantie 2022</h1>
+            <h2>11 - 15 april</h2>
+          </div>
+
+          <div class="vakantieInfo">
             <h1>Zomervakantie 2022</h1>
             <h2>4 - 15 juli</h2>
             <h2>15 - 31 augustus</h2>
           </div>
 
           <!-- <a href="https://inschrijven.despeelberg.be" class="button">Inschrijven</a> -->
-          <div class="vakantieInfo">
-            <h1>Paasvakantie 2022</h1>
-            <h2>11 - 15 april</h2>
-          </div>
         </div>
       </div>
     </div>
