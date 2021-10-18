@@ -3,7 +3,7 @@
     <div class="background">
       <div id="info-wrap">
         <div id="info">
-          <div class="vakantieInfo">
+          <div class="vakantieInfo firstvakantie">
             <h1>Paasvakantie 2022</h1>
             <h2>11 - 15 april</h2>
           </div>
@@ -104,7 +104,7 @@ export default {
 }
 
 #info {
-  width: 75%;
+  width: 80%;
   margin: auto;
   color: #ffffff;
   font-family: "Roboto", Arial, Helvetica, sans-serif;
@@ -140,7 +140,10 @@ h3 {
 
 .vakantieInfo {
   float: left;
-  margin-top: 10%;
+  margin-top: 50px;
+}
+
+.firstvakantie {
   padding-right: 150px;
 }
 
@@ -160,9 +163,19 @@ h3 {
   .button {
     width: 100%;
   }
+}
 
+@media (max-width: 1450px) {
   #info-wrap {
     height: 100%;
+  }
+
+  .firstvakantie {
+    padding-right: 0;
+  }
+
+  .vakantieInfo {
+    float: none;
   }
 }
 </style>
