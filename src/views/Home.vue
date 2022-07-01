@@ -141,7 +141,7 @@
             :type="'info'"
             :intern="false"
           >
-            Je kan ons bereiken op: 0470 03 16 52. <br />
+            Je kan ons bereiken op: 0498 97 56 95. <br />
             <b>Let op!</b> Al onze vrijwilligers studeren nog. Spreek gerust een
             boodschap in als je niemand kan bereiken.
           </card>
