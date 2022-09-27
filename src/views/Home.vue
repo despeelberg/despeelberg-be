@@ -44,19 +44,19 @@
             :clickable="true"
             :href="'animatoren'"
           >
-            Ben je 16 jaar of ouder en heb je zin om animator te worden bij ons?
+            Word je 16 jaar of ouder en heb je zin om animator te worden bij ons?
             Je bent altijd welkom!
           </card>
         </block>
 
-        <block blockTitle="Kalender 2022" :id="'kalender'">
+        <block blockTitle="Kalender 2023" :id="'kalender'">
           <card
             :title="'Paasvakantie'"
             :type="'info'"
             :clickable="false"
             :href="'kalender'"
           >
-            Van 11 tot en met 15 april 2022.
+            Van 3 tot en met 7 april 2023.
           </card>
           <card
             :title="'Zomervakantie'"
@@ -64,7 +64,7 @@
             :clickable="false"
             :href="'kalender'"
           >
-            Van 4 tot en met 15 juli en van 15 tot en met 31 augustus 2022.
+            Van 3 tot en met 14 juli en van 14 tot en met 30 augustus 2023.
           </card>
         </block>
 

@@ -4,14 +4,14 @@
       <div id="info-wrap">
         <div id="info">
           <div class="vakantieInfo firstvakantie">
-            <h1>Paasvakantie 2022</h1>
-            <h2>11 - 15 april</h2>
+            <h1>Paasvakantie 2023</h1>
+            <h2>3 - 7 april</h2>
           </div>
 
           <div class="vakantieInfo">
-            <h1>Zomervakantie 2022</h1>
-            <h2>4 - 15 juli</h2>
-            <h2>15 - 31 augustus</h2>
+            <h1>Zomervakantie 2023</h1>
+            <h2>3 - 14 juli</h2>
+            <h2>14 - 30 augustus</h2>
           </div>
 
           <!-- <a href="https://inschrijven.despeelberg.be" class="button">Inschrijven</a> -->
@@ -80,7 +80,7 @@ export default {
   position: fixed;
   z-index: -1;
   top: 0;
-  background: url("../assets/banner_2021.jpg") center center no-repeat;
+  background: url("../assets/banner_2022_1.jpg") center center no-repeat;
   background-size: cover;
   /* padding-bottom: 56.25%; */
 }

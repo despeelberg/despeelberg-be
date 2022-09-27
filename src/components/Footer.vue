@@ -24,9 +24,6 @@
     </div>
     <div class="column">
       <h4>NUTTIGE LINKS</h4>
-      <a href="http://www.wordanimator.be/" class="link" target="_blank"
-        >Word animator!</a
-      >
       <a href="https://www.waregem.be/" class="link" target="_blank"
         >Stad Waregem</a
       >
