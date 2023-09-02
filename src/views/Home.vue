@@ -56,7 +56,7 @@
             :clickable="false"
             :href="'kalender'"
           >
-            Van 3 tot en met 7 april 2023.
+            Van 8 tot en met 12 april 2024.
           </card>
           <card
             :title="'Zomervakantie'"
@@ -64,7 +64,7 @@
             :clickable="false"
             :href="'kalender'"
           >
-            Van 3 tot en met 14 juli en van 14 tot en met 30 augustus 2023.
+            Van 1 tot en met 12 juli en van 12 tot en met 28 augustus 2024.
           </card>
         </block>
 
@@ -137,11 +137,11 @@
           <card
             :title="'Bellen en sms\'en'"
             :clickable="true"
-            :href="'tel:+32470031652'"
+            :href="'tel:+32471325854'"
             :type="'info'"
             :intern="false"
           >
-            Je kan ons bereiken op: 0498 97 56 95. <br />
+            Je kan ons bereiken op: 0471 32 58 54. <br />
             <b>Let op!</b> Al onze vrijwilligers studeren nog. Spreek gerust een
             boodschap in als je niemand kan bereiken.
           </card>
