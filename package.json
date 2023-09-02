@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
+    "serve": "vue-cli-service serve --openssl-legacy-provider",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "tb": "node ./tests/lighthouse.js && npm run build"
@@ -22,7 +22,8 @@
     "register-service-worker": "^1.6.2",
     "vue": "^2.6.11",
     "vue-router": "^3.1.5",
-    "vuex": "^3.1.2"
+    "vuex": "^3.1.2",
+    "webpack": "^5.88.2"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.2.0",
