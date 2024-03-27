@@ -27,11 +27,11 @@
 
       <block blockTitle="Hoeveel kost een dag op het speelplein?" :class="'no-flex'">
         <p>
-          <b>Voormiddag</b> €1 <br>
+          <b>Voormiddag</b> €2 <br>
           <b>Middag</b> €1 (inclusief drankje) <br>
           <b>Namiddag</b> €2 (inclusief drankje) <br>
           <br>
-          <b>Hele dag</b> €4
+          <b>Hele dag</b> €5
         </p>
       </block>
 
