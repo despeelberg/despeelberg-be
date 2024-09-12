@@ -48,7 +48,7 @@ a {
     margin: 10px 30px 20px 0;
     transition: 0.1s linear;
     width: 100%;
-    box-shadow: 5px 5px 2px lightgrey;
+    box-shadow: 5px 5px 2px #ececec;
 }
 .card.click:hover {
     transform: scale(1.01);

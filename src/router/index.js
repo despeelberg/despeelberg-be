@@ -7,6 +7,8 @@ import Pit from '../views/Pit.vue'
 import Visie from '../views/Visie.vue'
 // import Corona from '../views/Corona.vue'
 import ErrorPage from '../views/ErrorPage.vue'
+import Calendar from '../views/Calendar.vue'
+import Faq from '../views/Faq'
 
 Vue.use(VueRouter)
 
@@ -50,15 +52,24 @@ const routes = [
     meta: {
       title: 'Onze visie | Speelplein De Speelberg vzw'
     }
+
   },
-  // {
-  //   path: '/coronavirus',
-  //   name: 'Maatregelen coronavirus',
-  //   component: Corona,
-  //   meta: {
-  //     title: 'Coronamaatregelen | Speelplein De Speelberg vzw'
-  //   }
-  // },
+  {
+    path: '/kalender',
+    name: 'Kalender',
+    component: Calendar,
+    meta: {
+      title: 'Kalender | Speelplein De Speelberg vzw'
+    }
+  },
+  {
+    path: '/faq',
+    name: 'Faq',
+    component: Faq,
+    meta: {
+      title: 'Veelgestelde vragen | Speelplein De Speelberg vzw'
+    }
+  },
   {
     path: '*',
     component: ErrorPage,
@@ -73,7 +84,7 @@ const router = new VueRouter({
   mode: 'history',
   base: process.env.BASE_URL,
   routes,
-  scrollBehavior () {
+  scrollBehavior() {
     return { x: 0, y: 0 }
   }
 })
