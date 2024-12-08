@@ -3,15 +3,10 @@
     <div class="background">
       <div id="info-wrap">
         <div id="info">
-          <div class="vakantieInfo firstvakantie">
-            <h1>Paasvakantie 2024</h1>
-            <h2>8 - 12 april</h2>
-          </div>
-
           <div class="vakantieInfo">
-            <h1>Zomervakantie 2024</h1>
-            <h2>1 - 12 juli</h2>
-            <h2>12 - 28 augustus</h2>
+            <h1>Zomervakantie 2025</h1>
+            <h2>1 - 17 juli</h2>
+            <h2>18 - 29 augustus</h2>
           </div>
 
           <!-- <a href="https://inschrijven.despeelberg.be" class="button">Inschrijven</a> -->
@@ -80,7 +75,7 @@ export default {
   position: fixed;
   z-index: -1;
   top: 0;
-  background: url("../assets/banner_2024.jpg") center center no-repeat;
+  background: url("../assets/banner_2021.jpg") center center no-repeat;
   background-size: cover;
   /* padding-bottom: 56.25%; */
 }

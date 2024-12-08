@@ -49,22 +49,14 @@
           </card>
         </block>
 
-        <block blockTitle="Kalender 2023" :id="'kalender'">
-          <card
-            :title="'Paasvakantie'"
-            :type="'info'"
-            :clickable="false"
-            :href="'kalender'"
-          >
-            Van 8 tot en met 12 april 2024.
-          </card>
+        <block blockTitle="Kalender 2025" :id="'kalender'">
           <card
             :title="'Zomervakantie'"
             :type="'info'"
             :clickable="false"
             :href="'kalender'"
           >
-            Van 1 tot en met 12 juli en van 12 tot en met 28 augustus 2024.
+            Van 1 tot en met 17 juli en van 18 tot en met 29 augustus 2025.
           </card>
         </block>
 
@@ -137,11 +129,11 @@
           <card
             :title="'Bellen en sms\'en'"
             :clickable="true"
-            :href="'tel:+32471325854'"
+            :href="'tel:+32478353110'"
             :type="'info'"
             :intern="false"
           >
-            Je kan ons bereiken op: 0471 32 58 54. <br />
+            Je kan ons bereiken op: 0478 35 31 10. <br />
             <b>Let op!</b> Al onze vrijwilligers studeren nog. Spreek gerust een
             boodschap in als je niemand kan bereiken.
           </card>
