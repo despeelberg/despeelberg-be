@@ -16,8 +16,8 @@
       <block blockTitle="Hoe ziet een dag eruit op het speelplein?" :class="'no-flex'">
         <p></p>
         <p>
-          <b>7:45 - 9:30</b> Onze poort staat open voor iedereen die wil spelen! De poort wordt om 9:30 gesloten en kan je niet meer binnen. <br>
-          <b>9:30 - 12:00</b> Er worden verschillende activiteiten georganiseerd door een enthousiaste groep animatoren. Je kan zelf kiezen waar je meespeelt! <br>
+          <b>7:45 - 9:00</b> Onze poort staat open voor iedereen die wil spelen! De poort wordt om 9:00 gesloten en kan je niet meer binnen. <br>
+          <b>9:00 - 12:00</b> Er worden verschillende activiteiten georganiseerd door een enthousiaste groep animatoren. Je kan zelf kiezen waar je meespeelt! <br>
           <b>12:00 - 13:00</b> Over de middag kan je jouw boterhammen opeten. Er wordt een drankje aangeboden (cola, limonade of water). <br>
           <b>13:00 - 13:45</b> Onze poort staat weer open voor iedereen die in de namiddag wil komen spelen! <br>
           <b>13:45 - 17:30</b> Een hele namiddag spelen! Om 15:30 is er het vieruurtje, waar je een koekje (zelf mee te brengen) kan eten en een drankje krijgt. Om 17:30 worden alle kinderen tegelijk afgehaald aan de poort.

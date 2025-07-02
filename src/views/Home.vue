@@ -4,17 +4,17 @@
     <nav-bar v-bind:topOfPage="false"></nav-bar>
     <section id="main">
       <div class="container">
-        <!-- <block blockTitle="Inschrijvingen" :id="'inschrijvingen'">
+        <block blockTitle="Inschrijvingen" :id="'inschrijvingen'">
           <card 
           v-bind:title="'Inschrijvingen'"
           v-bind:type="'info'"
           v-bind:clickable="true"
           :intern="false"
-          :href="'https://inschrijven.despeelberg.be'"
+          :href="'https://speelpleinwerking.waregem.be'"
           >
-            De inschrijvingen voor augustus beginnen op maandag 20 juli, om 17u30. Deze eindigen op woensdag 29 juli.
+            Via deze link kan je je kind(eren) inschrijven voor het speelplein! Het is verplicht om een profiel aan te maken zodat we de nodige gegevens hebben, inschrijven kan zowel via dit platform als aan de poort.
           </card>
-        </block> -->
+        </block>
 
         <!-- <block blockTitle="Maatregelen i.v.m. het coronavirus (Covid-19)" :id="'covid'">
           <card 

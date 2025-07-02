@@ -13,7 +13,7 @@
     <div class="column">
       <h4>CONTACT</h4>
       <p>
-        <a href="tel:+32471325854" class="link">+32 471 32 58 54</a>
+        <a href="tel:+32478353110" class="link">+32 478 35 31 10</a>
         <a href="mailto:info@despeelberg.be" class="link"
           >info@despeelberg.be</a
         >
