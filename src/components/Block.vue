@@ -23,6 +23,7 @@ export default {
 }
 .block {
     margin-bottom: 25px;
+    color: #333333;
 }
 
 .block-title {
@@ -36,10 +37,12 @@ export default {
   display: flex;
   justify-content: space-between;
   align-items: top;
+  color: #333;
 }
 
 .no-flex .slot {
   display: block;
+  color: #333333;
 }
 
 @media (max-width: 640px) {
