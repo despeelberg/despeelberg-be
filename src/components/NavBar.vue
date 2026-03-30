@@ -17,7 +17,7 @@
           
           </a>
           <div class="menu-btn-wrap">
-            <button class="menu-btn" v-on:click="toggleMenu()">
+            <button name="Menu button" class="menu-btn" v-on:click="toggleMenu()">
               <fa :icon="['fas', 'bars']"></fa>
             </button>
           </div>
@@ -28,6 +28,7 @@
           <a href="#kalender" class="link"> KALENDER </a>
           <a href="#fotos" class="link"> FOTO'S </a>
           <a href="#contact" class="link"> CONTACT </a>
+          <router-link :to="'/faq'" class="link"> VEELGESTELDE VRAGEN </router-link>
           <div class="socials">
             <a
               href="https://www.facebook.com/despeelbergvzw"
@@ -145,7 +146,7 @@ export default {
 
 .logo-name {
     text-transform: uppercase;
-    font-family: 'Roboto', Avenir, Arial, Helvetica, sans-serif;
+    font-family: 'Roboto Condensed', Avenir, Arial, Helvetica, sans-serif;
     font-size: 26px;
     font-weight: 300;
 }
